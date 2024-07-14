@@ -113,7 +113,7 @@ export const PresalePhase = ({
 
   return (
     <div>
-      <BigH2>SPEEDBALLING</BigH2>
+      <BigH2>KNUCKLEBALLING</BigH2>
       {yeeter.isComing && (
         <>
           <BigH3>TO PRESALE START</BigH3>

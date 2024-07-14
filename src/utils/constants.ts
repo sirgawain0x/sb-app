@@ -9,7 +9,7 @@ import {
   ValidNetwork,
 } from "@daohaus/keychain-utils";
 
-export const APP_NAME = "SPEEDBALL";
+export const APP_NAME = "KNUCKLEBALL";
 
 export const YEET24_REFERRER = "DHYeet24ShamanSummoner.5";
 export const YEET24_NAME = "Yeet24ShamanModule";
@@ -120,7 +120,7 @@ export const getValidChainId = (chainId?: string) => {
 };
 const POINT_O_ONE_ETH = "10000000000000000";
 const POINT_OO_ONE_ETH = "1000000000000000";
-const GOAL_ETH = "3000000000000000000";
+const GOAL_ETH = "16000000000000000000";
 
 export const SPONSOR_THRESHOLD = POINT_O_ONE_ETH;
 export const YEETER_SHAMAN_PERMISSIONS = "2";
@@ -141,9 +141,9 @@ export const DEFAULT_YEETER_VALUES_DEV = {
 export const DEFAULT_YEETER_VALUES_PROD = {
   isShares: true,
   feeRecipients: [
-    "0xD0f8720846890a7961945261FE5012E4cA39918e",
-    "0x4a9a27d614a74ee5524909ca27bdbcbb7ed3b315",
-  ], // yeeter team, daohaus eco fund
+    "0x9E9a1B912E3414D224f880b8C3E8F4AE4eD59D9a",
+    "0x1Fde40a4046Eda0cA0539Dd6c77ABF8933B94260",
+  ], // BIG team, Creative account
   feeAmounts: ["5000", "5000"], // .5% fees
   multiplier: "10000",
   minThresholdGoal: GOAL_ETH,
